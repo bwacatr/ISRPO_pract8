@@ -1,0 +1,41 @@
+﻿<Window x:Class="pract8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pract8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <TextBlock DockPanel.Dock="Top" Height="50" FontSize="24">
+            Магазин электронники
+        </TextBlock>
+        <Menu  DockPanel.Dock="Top">
+            <MenuItem Margin="15,0,0,0">
+                <MenuItem.Header>
+                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Главная</TextBlock>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem>
+                <MenuItem.Header>
+                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Каталог</TextBlock>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem>
+                <MenuItem.Header>
+                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Корзина</TextBlock>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem>
+                <MenuItem.Header>
+                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Контакты</TextBlock>
+                </MenuItem.Header>
+            </MenuItem>
+        </Menu>
+
+        <Frame NavigationUIVisibility="Hidden" x:Name="MainFrame">
+            
+        </Frame>
+        
+    </DockPanel>
+</Window>
