@@ -1,0 +1,17 @@
+﻿<Application x:Class="pract8.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:pract8"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Colors/Light.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/ListViewItems.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Text.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Miscellaneous.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
