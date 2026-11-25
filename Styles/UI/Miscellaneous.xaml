@@ -15,10 +15,4 @@
         <Setter Property="Background" Value="{DynamicResource Background}"/>
     </Style>
 
-    <Style TargetType="ProgressBar">
-        <Setter Property="Foreground" Value="{DynamicResource ButtonPressed}"/>
-        <Setter Property="Margin" Value="5,5,5,5"/>
-        <Setter Property="BorderBrush" Value="{DynamicResource Background}"/>
-        <Setter Property="BorderThickness" Value="10"/>
-    </Style>
 </ResourceDictionary>

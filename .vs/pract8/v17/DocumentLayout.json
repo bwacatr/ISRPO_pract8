@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\styles\\colors\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\colors\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -15,20 +11,87 @@
       "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\ui\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\styles\\ui\\miscellaneous.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\ui\\miscellaneous.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\styles\\ui\\listviewitems.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\ui\\listviewitems.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\styles\\ui\\miscellaneous.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:styles\\ui\\miscellaneous.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\bucketlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\bucketlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\bucketlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\bucketlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\productdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\productdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\productdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pages\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:pages\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\AppData\\Local\\Temp\\.vsdbgsrc\\ba0541164f379192eb23d0d5a0cde96659c5f181f381664f91a7120406e6d139\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\images\\computer.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:images\\computer.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB375292-9570-429E-B134-865BC96C21A8}|pract8.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\isrpo_pract8-main\\pract8\\pract8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,35 +105,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BucketList.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml",
+              "RelativeDocumentMoniker": "Pages\\BucketList.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml",
+              "RelativeToolTip": "Pages\\BucketList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T15:00:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T13:29:46.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Light.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\Colors\\Light.xaml",
-              "RelativeDocumentMoniker": "Styles\\Colors\\Light.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\Colors\\Light.xaml",
-              "RelativeToolTip": "Styles\\Colors\\Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-23T15:14:23.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Miscellaneous.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Miscellaneous.xaml",
-              "RelativeDocumentMoniker": "Styles\\UI\\Miscellaneous.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Miscellaneous.xaml",
-              "RelativeToolTip": "Styles\\UI\\Miscellaneous.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-23T15:11:40.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Text.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Text.xaml",
               "RelativeDocumentMoniker": "Styles\\UI\\Text.xaml",
@@ -82,20 +145,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "pract8",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\pract8.csproj",
-              "RelativeDocumentMoniker": "pract8.csproj",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\pract8.csproj",
-              "RelativeToolTip": "pract8.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-23T15:00:48.561Z",
+              "DocumentIndex": 2,
+              "Title": "ListViewItems.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\ListViewItems.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\ListViewItems.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\ListViewItems.xaml",
+              "RelativeToolTip": "Styles\\UI\\ListViewItems.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T12:06:43.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Button.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\Button.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Button.xaml",
+              "RelativeToolTip": "Styles\\UI\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T11:47:27.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Miscellaneous.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Miscellaneous.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\Miscellaneous.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\UI\\Miscellaneous.xaml",
+              "RelativeToolTip": "Styles\\UI\\Miscellaneous.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T15:11:40.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Light.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\Colors\\Light.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\Light.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Styles\\Colors\\Light.xaml",
+              "RelativeToolTip": "Styles\\Colors\\Light.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T15:14:23.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -107,7 +205,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "BucketList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\BucketList.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml.cs",
+              "RelativeToolTip": "Pages\\BucketList.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwHIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T11:47:34.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
@@ -119,7 +230,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAEwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T13:01:20.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Contacts.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\Contacts.xaml",
               "RelativeDocumentMoniker": "Pages\\Contacts.xaml",
@@ -131,14 +255,155 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BucketList.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml",
-              "RelativeDocumentMoniker": "Pages\\BucketList.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\BucketList.xaml",
-              "RelativeToolTip": "Pages\\BucketList.xaml",
+              "DocumentIndex": 12,
+              "Title": "ProductDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\ProductDetails.xaml",
+              "RelativeDocumentMoniker": "Pages\\ProductDetails.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\ProductDetails.xaml",
+              "RelativeToolTip": "Pages\\ProductDetails.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-23T15:00:38.139Z",
+              "WhenOpened": "2026-11-25T12:20:22.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Pages\\Catalog.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\Catalog.xaml",
+              "RelativeToolTip": "Pages\\Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-24T14:46:03.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\ProductDetails.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProductDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\ProductDetails.xaml.cs",
+              "RelativeToolTip": "Pages\\ProductDetails.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T12:20:26.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Catalog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\Catalog.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Catalog.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Pages\\Catalog.xaml.cs",
+              "RelativeToolTip": "Pages\\Catalog.xaml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T10:32:05.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\CartItem.cs",
+              "RelativeDocumentMoniker": "CartItem.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\CartItem.cs",
+              "RelativeToolTip": "CartItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T10:46:59.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductList.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\ProductList.cs",
+              "RelativeDocumentMoniker": "ProductList.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\ProductList.cs",
+              "RelativeToolTip": "ProductList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T10:53:19.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T14:43:29.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\AppData\\Local\\Temp\\.vsdbgsrc\\ba0541164f379192eb23d0d5a0cde96659c5f181f381664f91a7120406e6d139\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ba0541164f379192eb23d0d5a0cde96659c5f181f381664f91a7120406e6d139\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\AppData\\Local\\Temp\\.vsdbgsrc\\ba0541164f379192eb23d0d5a0cde96659c5f181f381664f91a7120406e6d139\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ba0541164f379192eb23d0d5a0cde96659c5f181f381664f91a7120406e6d139\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAANcBAAAAAAAAAAAIwOwBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T11:02:52.567Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T10:50:08.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Computer.png",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Images\\Computer.png",
+              "RelativeDocumentMoniker": "Images\\Computer.png",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\Images\\Computer.png",
+              "RelativeToolTip": "Images\\Computer.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-11-25T10:48:35.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "pract8.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\pract8.csproj",
+              "RelativeDocumentMoniker": "pract8.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\pract8.csproj",
+              "RelativeToolTip": "pract8.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-23T15:00:48.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\ISRPO_pract8-main\\pract8\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T13:37:30.404Z",
               "EditorCaption": ""
             }
           ]

@@ -5,33 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pract8"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="1200">
     <DockPanel LastChildFill="True">
-        <TextBlock DockPanel.Dock="Top" Height="50" FontSize="24">
-            Магазин электронники
-        </TextBlock>
-        <Menu  DockPanel.Dock="Top">
-            <MenuItem Margin="15,0,0,0">
+        <StackPanel Width="150" DockPanel.Dock="Left" Background="Orange">
+            <Menu   Background="Orange" HorizontalAlignment="Left" Foreground="White">
+            <MenuItem Click="MainPage_Click">
                 <MenuItem.Header>
-                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Главная</TextBlock>
+                    <TextBlock TextAlignment="Center" Padding="10" FontSize="24">Главная</TextBlock>
                 </MenuItem.Header>
             </MenuItem>
-            <MenuItem>
+                <MenuItem Click="Catalog_Click">
                 <MenuItem.Header>
-                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Каталог</TextBlock>
+                        <TextBlock TextAlignment="Center" Padding="10"  FontSize="24">Каталог</TextBlock>
+                </MenuItem.Header>
+            </MenuItem >
+            <MenuItem Click="BucketList_Click">
+                <MenuItem.Header>
+                        <TextBlock TextAlignment="Center" Padding="10"  FontSize="24">Корзина</TextBlock>
                 </MenuItem.Header>
             </MenuItem>
-            <MenuItem>
+            <MenuItem Click="Contacts_Click">
                 <MenuItem.Header>
-                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Корзина</TextBlock>
-                </MenuItem.Header>
-            </MenuItem>
-            <MenuItem>
-                <MenuItem.Header>
-                    <TextBlock Height="50" Width="180" TextAlignment="Center" FontSize="24">Контакты</TextBlock>
+                        <TextBlock  TextAlignment="Center" Padding="10"  FontSize="24">Контакты</TextBlock>
                 </MenuItem.Header>
             </MenuItem>
         </Menu>
+        </StackPanel>
 
         <Frame NavigationUIVisibility="Hidden" x:Name="MainFrame">
             

@@ -9,6 +9,87 @@
       Title="BucketList">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListView Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Margin="10"
+          x:Name="CartListView"
+          ItemsSource="{Binding CartItems}"
+          SelectedItem="{Binding SelectedItem}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn >
+                        <GridViewColumn.Header>
+                            <TextBlock Text="Название" Foreground="Black" FontWeight="Bold"/>
+                        </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Product.Name}" Foreground="Black"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn >
+                        <GridViewColumn.Header>
+                            <TextBlock Text="Цена" Foreground="Black" FontWeight="Bold"/>
+                        </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Product.Price, StringFormat={}{0} ₽}" Foreground="Black"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn >
+                        <GridViewColumn.Header>
+                            <TextBlock Text="Кол-во" Foreground="Black" FontWeight="Bold"/>
+                        </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="-" Style="{StaticResource SmallButton}" Click="Decrease" />
+                                    <TextBlock Text="{Binding Amount}" VerticalAlignment="Center" MinWidth="20" TextAlignment="Center" Foreground="Black" FontWeight="Bold"/>
+                                    <Button Content="+" Style="{StaticResource SmallButton}" Click="Increase"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn >
+                        <GridViewColumn.Header>
+                            <TextBlock Text="Сумма" Foreground="Black" FontWeight="Bold"/>
+                        </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TotalPrice, StringFormat={}{0} ₽}" Foreground="Black"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Margin="5,10,10,10" CornerRadius="15" Background="DarkOrange">
+            <StackPanel>
+                <TextBlock Text="Введите промокод" Style="{StaticResource ProductDetailTextBlock}"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Foreground="White" FontSize="18" x:Name="txtPromocode" Width="140"/>
+                    <Button Content="ОК" Margin="5,5,5,5" Click="PromocodeBtn" Foreground="White" />
+                </StackPanel>
+
+                <TextBlock Text="Итоговая сумма заказа" Style="{StaticResource ProductDetailTextBlock}"/>
+                <TextBlock Text="{Binding TotalSum, StringFormat={}{0} ₽}" Style="{StaticResource ProductDetailTextBlock}" FontWeight="Bold" FontSize="20"/>
+
+                <Button Content="Оформить заказ" Style="{StaticResource ListViewButton}" Foreground="White" Click="Buy"/>
+                <Button Content="Продолжить покупки" Style="{StaticResource ListViewButton}" Foreground="White" Click="Continue" />
+                <Button Content="Удалить товар" Style="{StaticResource ListViewButton}" Foreground="White" Click="Delete" />
+            </StackPanel>
+        </Border>
     </Grid>
 </Page>

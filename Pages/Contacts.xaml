@@ -9,17 +9,39 @@
       Title="Contacts">
 
     <Grid>
+
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+
         
+            <Border Grid.Row="0" Background="{StaticResource ButtonBorder}" Margin="50,50,50,50" CornerRadius="15" Width="300" Height="240">
+            <Grid >
+                <TextBlock VerticalAlignment="Center" MaxWidth="225" Style="{StaticResource Contacts}" Text="«ГигаБайт» — магазин оригинальной электроники 
+           с официальной гарантией, быстрой доставкой по Екатеринбургу 
+           и помощью в выборе техники под любые задачи." TextWrapping="Wrap"/>
+                
+            </Grid>
+        </Border >
+
+        <Border Grid.Column="1" Background="{StaticResource ButtonBorder}" Margin="50,50,50,50" CornerRadius="15" Width="300" Height="240">
+            <Grid>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock MaxWidth="225" Style="{StaticResource Contacts}" Text="Адрес: г. Екатеринбург, ул. Малышева, д. 51, оф. 204" TextWrapping="Wrap"/>
+
+                    <TextBlock MaxWidth="225" Style="{StaticResource Contacts}" Text="Режим работы: Ежедневно, 10:00 – 21:00
+Телефон: +7 (343) 000-00-00
+Email: info@gigabyte-ekb.ru" TextWrapping="Wrap"/>
+                </StackPanel>
+
+            </Grid>
+        </Border >
+       
+
     </Grid>
 </Page>

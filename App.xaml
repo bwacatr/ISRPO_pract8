@@ -7,9 +7,10 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Styles/Colors/Light.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/ListViewItems.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/Text.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/ListViewItems.xaml"/>
+
                 <ResourceDictionary Source="/Styles/UI/Miscellaneous.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

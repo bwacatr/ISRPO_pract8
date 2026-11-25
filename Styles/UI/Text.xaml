@@ -1,21 +1,60 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <Style TargetType="TextBlock" x:Key="Title">
+    <Style TargetType="TextBlock" x:Key="ShopDescription">
         <Setter Property="FontSize" Value="24"/>
         <Setter Property="FontWeight" Value="Bold"/>
-        <Setter Property="Background" Value="{DynamicResource TextBlockBackground}"/>
-        <Setter Property="Foreground" Value="{DynamicResource TextBlockForeground}"/>
+        <Setter Property="Margin" Value="50,50,50,50"/>
+        <Setter Property="Foreground" Value="{DynamicResource Background}"/>
+        <Setter Property="TextAlignment" Value="Center"/>
         <Setter Property="Padding" Value="10"/>
+        <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+        
+    </Style>
+
+    
+
+    <Style BasedOn="{StaticResource ShopDescription}" TargetType="TextBlock" x:Key="Contacts">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="5,5,5,5"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+
+
+    </Style>
+    
+    <Style x:Key="ProductTextBlock" TargetType="TextBlock" BasedOn="{StaticResource Contacts}">
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <Style x:Key="ProductDetailTextBlock" TargetType="TextBlock" BasedOn="{StaticResource Contacts}">
+        <Setter Property="Foreground" Value="White"/>
     </Style>
 
     <Style TargetType="TextBox">
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Height" Value="50"/>
-        <Setter Property="Margin" Value="20,20,20,20"/>
-        <Setter Property="BorderBrush" Value="{DynamicResource DangerButtonHover}"/>
-        <Setter Property="Background" Value="{DynamicResource DangerButtonHover}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource TextBlockBackground}"/>
+        <Setter Property="BorderThickness" Value="5"/>
+        <Setter Property="Margin" Value="15,15,15,15"/>
+        <Setter Property="Background" Value="{DynamicResource Background}"/>
         <Setter Property="Foreground" Value="{DynamicResource ButtonForeground}"/>
+        <Setter Property="FontSize" Value="24"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Border x:Name="border"
+                    CornerRadius="4"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    BorderBrush="{TemplateBinding BorderBrush}">
+                        <ScrollViewer x:Name="PART_ContentHost" Margin="5,0,5,0" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+
     </Style>
 
      <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}"  x:Key="Large">

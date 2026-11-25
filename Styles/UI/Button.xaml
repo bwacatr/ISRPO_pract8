@@ -2,36 +2,31 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
 
-    <Style TargetType="RadioButton">
-        <Setter Property="Margin" Value="5,5,5,5"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Foreground" Value="{DynamicResource ButtonForeground}"/>
-        
-    </Style>
     
     <Style TargetType="Button">
         <Setter Property="Background" Value="{DynamicResource ButtonBackground}"/>
         <Setter Property="Foreground" Value="{DynamicResource ButtonForeground}"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="BorderBrush" Value="{DynamicResource ButtonBorder}"/>
-        <Setter Property="BorderThickness" Value="3"/>
+        <Setter Property="BorderThickness" Value="5"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="FontSize" Value="24"/>
 
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
+                    <Border x:Name="border"
+                            CornerRadius="4"
                             BorderThickness="{TemplateBinding BorderThickness}"
-                            Height="50"
-                            Width="100"
-                            CornerRadius="5"
-                            Margin="5,5,5,5">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
+
+
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Background" Value="{DynamicResource ButtonHover}"/>
@@ -43,40 +38,51 @@
         </Style.Triggers>
     </Style>
 
-    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" x:Key="MainButton">
-        <Setter Property="Background" Value="{DynamicResource MainButtonBackground}"/>
-        <Setter Property="Foreground" Value="{DynamicResource MainButtonForeground}"/>
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="BorderBrush" Value="{DynamicResource MainButtonBorder}"/>
-        <Setter Property="BorderThickness" Value="4"/>
+    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" x:Key="FilterButton">
+        <Setter Property="Width" Value="165"/>
+        <Setter Property="Foreground" Value="{DynamicResource Background}"/>
 
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{DynamicResource MainButtonHover}"/>
+                <Setter Property="Background" Value="{DynamicResource ButtonHover}"/>
 
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{DynamicResource MainButtonPressed}"/>
+                <Setter Property="Background" Value="{DynamicResource ButtonPressed}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
 
-    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" x:Key="DangerButton">
-        <Setter Property="Background" Value="{DynamicResource DangerButtonBackground}"/>
-        <Setter Property="Foreground" Value="{DynamicResource DangerButtonForeground}"/>
-        <Setter Property="BorderBrush" Value="{DynamicResource DangerButtonBorder}"/>
+    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" x:Key="ListViewButton">
+        <Setter Property="Width" Value="300"/>
 
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{DynamicResource DangerButtonHover}"/>
+                <Setter Property="Background" Value="{DynamicResource ButtonHover}"/>
 
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{DynamicResource DangerButtonPressed}"/>
-
+                <Setter Property="Background" Value="{DynamicResource ButtonPressed}"/>
             </Trigger>
         </Style.Triggers>
+    </Style>
 
-    </Style> 
+    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" x:Key="SmallButton">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="FontSize" Value="14"/>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ButtonHover}"/>
+
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ButtonPressed}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
 
 </ResourceDictionary>

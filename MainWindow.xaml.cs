@@ -19,6 +19,27 @@ namespace pract8
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Pages.MainPage());
+        }
+
+        private void MainPage_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Pages.MainPage());
+        }
+
+        private void BucketList_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Pages.BucketList());
+        }
+
+        private void Contacts_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Pages.Contacts());
+        }
+
+        private void Catalog_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Pages.Catalog());
         }
     }
 }
